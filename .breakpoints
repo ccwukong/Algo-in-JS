@@ -4,16 +4,8 @@
       {
         "id": "437d3b19-9a17-4ad1-a967-f8636fb8e685",
         "line": 1,
-        "version": 154,
+        "version": 156,
         "index": 0
-      }
-    ],
-    "sorting/mergeSort.js": [
-      {
-        "id": "06f904a9-8210-4964-b6d8-a94f1236a9f4",
-        "line": 41,
-        "version": 1399,
-        "index": 980
       }
     ]
   }
