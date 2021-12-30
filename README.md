@@ -2,7 +2,7 @@
 
 ## Why another data structure and algorithm repo?
 
-The original idea of creating this repo is for me to refresh my knowledge about common data structures and algorithms. Sure, practicing on Leetcode or other OJ platforms are more satisfying and more fun as in it's more interactive. However, I realized that understanding and implementing the data structures and algorithms from scratch helped me solving the Leetcode questions more confidently.
+The original idea of creating this repo is for me to refresh my knowledge about common data structures and algorithms. Sure, practicing on Leetcode or other OJ platforms are more satisfying and more fun as in they're interactive. However, I realized that understanding and implementing the data structures and algorithms from scratch helped me solving the Leetcode questions more confidently.
 
 ## What are the data structures and algorithms will be covered here?
 
