@@ -31,7 +31,8 @@ class DisjointSet{
     // find the parent of n1 and n2
     let p1 = this.find(n1);
     let p2 = this.find(n2);
-
+    
+    // only updating the ranking during union.
     if(p1 !== p2){
       if(this.rank[p1] >= this.rank[p2]){
         this.rank[p1]++;
