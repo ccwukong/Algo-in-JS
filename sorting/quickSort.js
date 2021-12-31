@@ -58,8 +58,4 @@ const quickSort = (arr) => {
   sort(arr, left, right);
 }
 
-const arr = [8,2,1,7,5,3,4,6,1];
-console.log(quickSort(arr));
-console.log(arr);
-
-// module.exports = quickSort;
+module.exports = quickSort;
