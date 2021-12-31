@@ -6,17 +6,17 @@ The original idea of creating this repo is for me to refresh my knowledge about 
 ## What are the data structures and algorithms will be covered here?
 I planned to cover the following data structures with detailed explanations:
 
-- Disjoint set
+- [Disjoint set](https://github.com/ccwukong/Algo-in-JS/blob/main/searching/graph/disjointSet.js)
 - Stack & Queue
 - Linked list (singly and doubly)
-- Heap & Priority queue
+- [Heap](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js) & Priority queue
 - Hash table
 - Binary tree, Binary search tree, N-ary tree & Trie
 - Graph (DAG, MST)
 
 And the most common algorithms:
 - Recursion
-- Mergesort, Quicksort & Heapsort
+- [Mergesort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js), [Quicksort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/quickSort.js) & [Heapsort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js)
 - DFS & BFS in Graphs/Matrix, including Backtracking
 - Divide & Conquer
 - Hashing
