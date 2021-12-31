@@ -16,7 +16,7 @@ I planned to cover the following data structures with detailed explanations:
 
 And the most common algorithms:
 - Recursion
-- [Mergesort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js), [Quicksort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/quickSort.js) & [Heapsort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js)
+- [Merge sort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js), [Quick sort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/quickSort.js), [Heap sort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js) & [Topological sort](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/topologicalSort.js)
 - DFS & BFS in Graphs/Matrix, including Backtracking
 - Divide & Conquer
 - Hashing

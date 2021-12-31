@@ -1,7 +1,9 @@
 /**
  * 30/12/2021 by Cheng(ccwukong)
  * 
- * Disjoint set is a data structure used to check the connectivity of different nodes. There are 2 implementations: quick union and quick find. In this implementation, I choose quick union + ranking + path compression
+ * Disjoint set is a data structure used to check the connectivity of different nodes. 
+ * There are 2 implementations: quick union and quick find. In this implementation, 
+ * I choose quick union + ranking + path compression
  * 
  * Time complexity:
  * Space complexity:
