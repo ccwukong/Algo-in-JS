@@ -1,0 +1,17 @@
+name: Run unit test
+on:
+  push:
+    branches:    
+      - main
+
+jobs:
+  install-and-test:
+    name: Unit test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install
+        run: yarn Install
+      - name: test
+        run: yarn test
