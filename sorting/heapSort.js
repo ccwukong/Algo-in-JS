@@ -1,18 +1,18 @@
 /**
  * 30/12/2021 by Cheng(ccwukong)
- * 
+ *
  * Heap sort has the time complexity of O(nlogn). To sort the input array in acending order, we need to
  * implement MaxHeap, and vice versa.
- * 
+ *
  * Time complexity: O(nlogn)
  * Space complexity: O(n)
  */
 
-const heapSort = (arr) => {
+const heapSort = arr => {
   const h = new MaxHeap(arr);
   h.sort();
   return h.heap;
-}
+};
 
 class MaxHeap {
   constructor(arr) {
@@ -20,20 +20,19 @@ class MaxHeap {
     /**
      * keeping the end pointer for heap deletion, we don't actually remove any nodes from the heap array,
      * instead, we keep moving the end pointer backward when nodes are deleted.
-     * 
+     *
      * whan all nodes are deleted, the entire heap array is sorted.
      */
     this.end = arr.length - 1;
 
     for (let i = this.end; i >= 0; i--) {
-      this.heapify(i);      
+      this.heapify(i);
     }
   }
 
   // Heapify takes O(logn) time to place a node to its correct position
   heapify(idx) {
-    if (idx > this.end)
-      return;
+    if (idx > this.end) return;
 
     let left = 2 * idx + 1;
     let right = 2 * idx + 2;
@@ -54,7 +53,10 @@ class MaxHeap {
   }
 
   add(val) {
-    this.heap = this.heap.slice(0, this.end + 1).concat([val]).concat(this.heap.slice(this.end + 1));
+    this.heap = this.heap
+      .slice(0, this.end + 1)
+      .concat([val])
+      .concat(this.heap.slice(this.end + 1));
     this.end++;
 
     let curr = this.end;
@@ -73,6 +75,8 @@ class MaxHeap {
     this.end--;
 
     this.heapify(0);
+
+    return tmp;
   }
 
   sort() {

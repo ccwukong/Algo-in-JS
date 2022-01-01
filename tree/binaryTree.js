@@ -1,19 +1,19 @@
-class BinaryTree{
-  constructor(root){
+class BinaryTree {
+  constructor(root) {
     this.root = root;
   }
 
-  addLeft(node){
+  addLeft(node) {
     this.root.left = node;
   }
 
-  addRight(node){
+  addRight(node) {
     this.root.right = node;
   }
 }
 
-class Node{
-  constructor(val, left=null, right=null){
+class Node {
+  constructor(val, left = null, right = null) {
     this.val = val;
     this.left = left;
     this.right = right;
