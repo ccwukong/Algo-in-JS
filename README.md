@@ -11,7 +11,7 @@ I planned to cover the following data structures with detailed explanations:
 - [Disjoint set](https://github.com/ccwukong/Algo-in-JS/blob/main/searching/graph/disjointSet.js)
 - Stack & Queue
 - Linked list (singly and doubly)
-- [Heap](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js) & Priority queue
+- [Heap](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js) & [Priority queue](https://github.com/ccwukong/Algo-in-JS/blob/main/priorityqueue/priorityQueue.js)
 - Hash table
 - Binary tree, Binary search tree, N-ary tree & Trie
 - Graph (DAG, MST, [Cyclic check](https://github.com/ccwukong/Algo-in-JS/blob/main/searching/graph/hasCycle.js))
