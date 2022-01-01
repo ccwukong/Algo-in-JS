@@ -1,8 +1,10 @@
 /**
- * 31/12/2021 by Cheng(ccwukong)
+ * 01/01/2022 by Cheng(ccwukong)
  *
  * In this implementation, I'll implement the PriorityQueue using MinHeap,
  * means that, an item has higher prority will have smaller weight
+ *
+ * Heap has to be a complete binary tree
  *
  * Time complexity:
  * Space complexity:
@@ -47,9 +49,32 @@ class PriorityQueue {
       n,
       ...this.heap.slice(this.end + 1),
     ];
+    this.end++;
+
+    let curr = this.end;
+    while (curr > 0 && this.heap[curr] < this.heap[parseInt((curr - 1) / 2)]) {
+      let tmp = this.heap[curr];
+      this.heap[curr] = this.heap[parseInt((curr - 1) / 2)];
+      this.heap[parseInt((curr - 1) / 2)] = tmp;
+
+      curr = parseInt((curr - 1) / 2);
+    }
   }
 
-  dequeue() {}
+  dequeue() {
+    let tmp = this.heap[0];
+    this.heap[0] = this.heap[this.end];
+    this.heap[this.end] = tmp;
+    this.end--;
 
-  peek() {}
+    this.heapify(0);
+
+    return tmp;
+  }
+
+  peek() {
+    return this.heap[0];
+  }
 }
+
+module.exports = PriorityQueue;
