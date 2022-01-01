@@ -6,8 +6,8 @@
  *
  * Heap has to be a complete binary tree
  *
- * Time complexity:
- * Space complexity:
+ * Time complexity: build queue O(nlogn), enqueue O(logn), dequeue O(logn), peek O(1)
+ * Space complexity: O(n)
  */
 
 class PriorityQueue {
