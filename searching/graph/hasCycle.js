@@ -1,5 +1,5 @@
 /**
- * 30/12/2021 by Cheng (ccwukong)
+ * 30/12/2021 by Cheng(ccwukong)
  * This function simply check if there's any cycles in a graph represented by an adjacency list using
  * DFS.
  *

@@ -23,7 +23,7 @@ And the most common algorithms:
 - DFS & BFS in Graphs/Matrix, including Backtracking
 - Divide & Conquer
 - Hashing
-- Dijkstra
+- [Dijkstra](https://github.com/ccwukong/Algo-in-JS/blob/main/searching/graph/dijkstra.js) (I highly recommend this [YouTube video](https://www.youtube.com/watch?v=pVfj6mxhdMw&t=4s))
 - KMP
 - Greedy
 - Dynamic Programming (DP table & Memoization)
