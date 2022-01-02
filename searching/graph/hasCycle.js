@@ -19,6 +19,15 @@ const hasCycle = g => {
       return true;
     }
 
+    /**
+     * usually I will add the vertices to the visited set in the for loop below to avoid
+     * having the hasCycle function called repeatedly for the same set of vertices.
+     * 
+     * However, in here, I choose to add the current vertex to the visited and seen set before
+     * the for loop for 2 reasons:
+     * 1. there's no need to check if a vertex has already been added to the visited set or not
+     * 2. it will make the logic much simpler in this case.
+     */
     visited.add(curr); // add current node to global visited tracking
     seen.add(curr); // add current node to the current seen call stack;
     for (let v of g[curr]) {
