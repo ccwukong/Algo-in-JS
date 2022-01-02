@@ -13,7 +13,7 @@ I planned to cover the following data structures with detailed explanations:
 - Linked list (singly and doubly)
 - [Heap](https://github.com/ccwukong/Algo-in-JS/blob/main/sorting/heapSort.js) & [Priority queue](https://github.com/ccwukong/Algo-in-JS/blob/main/priorityqueue/priorityQueue.js)
 - Hash table
-- Binary tree, Binary search tree, N-ary tree & Trie
+- Binary tree, Binary search tree, N-ary tree & [Trie](https://github.com/ccwukong/Algo-in-JS/blob/main/tree/trie.js)
 - Graph (DAG, MST, [Cyclic check](https://github.com/ccwukong/Algo-in-JS/blob/main/searching/graph/hasCycle.js))
 
 And the most common algorithms:
