@@ -35,12 +35,13 @@ class DisjointSet {
 
     // only updating the ranking during union.
     if (p1 !== p2) {
-      if (this.rank[p1] >= this.rank[p2]) {
+      if (this.rank[p1] > this.rank[p2]) {
+        this.root[p2] = p1;
+      } else if(this.rank[p1] < this.rank[p2]) {
+        this.root[p1] = p2;
+      }else{
         this.rank[p1]++;
         this.root[p2] = p1;
-      } else {
-        this.rank[p2]++;
-        this.root[p1] = p2;
       }
     }
   }
